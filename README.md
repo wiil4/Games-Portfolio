@@ -22,7 +22,7 @@ Welcome! This is my portfolio containing all the games I've made as well as some
 ## Mobile Rescue Game - In development
 
 
-https://github.com/wiil4/Games-Portfolio/assets/123700555/ae3d68ae-a5e7-4531-83fc-aeac0842592d
+[Mobile Game](https://github.com/wiil4/Games-Portfolio/assets/123700555/ae3d68ae-a5e7-4531-83fc-aeac0842592d)
 
 
 * This game will be released for mobile as is planned to have a virtual joystick. It's being made with Unity.
