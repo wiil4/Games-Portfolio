@@ -3,6 +3,7 @@ Welcome! This is my portfolio containing all the games I've made as well as some
 
 ## Space Loop 
 ![Space Loop](img/med1-yqpinp5c.png)
+
 * You can check [SpaceLoop](https://gamejolt.com/games/space-loop/431095) available on Game Jolt and it can be played on windows platforms. Made with Unity.
 
 * Meet Apollo and discover his story while trying to develop a conspiracy due to a mysterious object that impacted his territory, but you must be very careful with the duality of the situation, some things are not what they seem. This level (videogame sample still in development) was done in 48 hours for the gameJam + 2019.
@@ -19,6 +20,12 @@ Welcome! This is my portfolio containing all the games I've made as well as some
 
 * The game was modified following Michigan State University Game Design and Development course.
 
+## Resurrected Lord
+![RR](img/ResurrectedLordCover.png)
+* You can check [ResurrectedLord](https://solarius-prismus.itch.io/resurrected-lord) at Itch.io and can be played on web as well as can be downloaded for windows platforms. Made with Unity.
+
+* This game was made for educational purposes.
+
 ## Mobile Rescue Game - In development
 
 
@@ -27,3 +34,4 @@ Welcome! This is my portfolio containing all the games I've made as well as some
 
 * This game will be released for mobile as is planned to have a virtual joystick. It's being made with Unity.
 * The game is about a spaceship that must rescue the astronauts and take them to a mother ship. 
+
