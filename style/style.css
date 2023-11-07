@@ -1,9 +1,9 @@
 body{
-    font-family: 'Nunito', sans-serif;
+    /*font-family: 'Nunito', sans-serif;*/
+    font-family: 'Space Mono', monospace;
+    background-color: rgb(41, 41, 49);
+    color: white;
     margin: 0;   
-}
-.h{
-    
 }
 /*NAV BAR*/
 nav{
@@ -13,13 +13,13 @@ nav{
     right: 0;
     z-index: 100;
     width: 100%;
-    font-size: 20px;
+    font-size: 16px;
     padding: 5px 0px;
     transition: 0.5s ease;
 }
 
 .nav-color-bg{
-    background-color: rgb(60, 61, 78);
+    background-color: rgb(36, 35, 35);
 }
 
 nav ul{
@@ -27,7 +27,7 @@ nav ul{
     display: flex
 }
 
-a{
+li a{
     text-decoration: none;
     color: white;
 }
@@ -35,6 +35,7 @@ a{
 .t-left{
     width: 30%;
     padding: auto;
+    font-size: 20px;
 }
 
 .t-right{
@@ -60,22 +61,20 @@ a{
 /*BANNER*/
 .banner{
     width: 100%;
-    height: 500px;
-    background-image: url(../img/ResurrectedLordCover.png);
+    height: 600px;
+    background-image: url(../img/SpaceShooterGame.png);
     background-size: cover;
     background-position: center; 
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
 }
 .banner-info{
     text-align: center;
-    width: 40%;
+    width: 50%;
 }    
 .info-title{
     font-size: 30px;
-    font-weight: bold;
 }
 .info-role{
     font-size: 25px;
@@ -83,23 +82,75 @@ a{
 
 .banner-info p{
     text-align: justify;
+    font-size: 17px;
     padding: 0px 4%;
 }
 
-.text-content{
-    width: 100%;
+.sm-group i{
+    margin: 0px 15px;
+    margin-top: 10px;
+    color: white;
 }
-/*SKILLS*/
-.text-content-exp{
+/*PORTFOLIO INFO*/
+.info-content{
+    margin: 40px 60px;
+    font-size: 20px;
+}
+
+.info-content-exp{
+}
+
+/*PROJECT CARDS*/
+.card-container{
+    display: flex;
+    margin: 5px 35px;
+    /*background-color: black;    */
     height: 400px;
 }
-.text-content-sk{
-    height: 300px;
+/*FULL CARD*/
+.card-info{
+    margin: 20px 10px;
 }
-.text-content-ab{
-    height: 200px;
+
+/*CARD TEXT PARAGRAPH*/
+.card-text{
+    /*background-color: aquamarine;*/
+    width: 50%;
+    margin-right: 40px;
 }
-.text-content-ct{
-    height: 100px;
+.card-title{
+    font-size: 30px;
+}
+.card-paragraph{
+    font-size: 15px;
+    text-align: justify;
+}
+.link-ref a{
+    color: white;
+}
+/*CARD IMAGE*/
+.card-img{
+    display: flex;
+    width: 50%;
+    /*background-color: red;*/
+}
+.card-img img, video{
+    width: 100%;
+    border: 3px solid rgb(122, 123, 141);
+    border-radius: 10px;
+    transition: .1s ease;
+}
+
+.card-img img:hover, video:hover{
+    opacity: .8;
+    border: 3px solid rgb(109, 137, 228);
+    transform: translateY(-3%);    
+}
+
+
+
+.info-content-ab{
+}
+.info-content-ct{
 }
 
