@@ -5,6 +5,10 @@ body{
     color: white;
     margin: 0;   
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 /*NAV BAR*/
 nav{
     position: fixed;
@@ -25,11 +29,6 @@ nav{
 nav ul{
     list-style-type: none;
     display: flex
-}
-
-li a{
-    text-decoration: none;
-    color: white;
 }
 
 .t-left{
@@ -86,15 +85,30 @@ li a{
     padding: 0px 4%;
 }
 
-.sm-group i{
-    margin: 0px 15px;
+.sm-group{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
     margin-top: 10px;
-    color: white;
 }
-/*PORTFOLIO INFO*/
+.sm-group i{
+    margin: 0px 10px;
+    color: white;
+    transition: .1s ease;
+}
+.sm-group i:hover{
+    opacity: .7;
+    transform: scale(1.1, 1.1);
+}
+/**PORTFOLIO INFO**/
 .info-content{
     margin: 40px 60px;
     font-size: 20px;
+}
+
+.link-ref a:hover{
+    text-decoration: underline;
+
 }
 
 .info-content-exp{
@@ -103,9 +117,9 @@ li a{
 /*PROJECT CARDS*/
 .card-container{
     display: flex;
-    margin: 5px 35px;
+    margin: 10px 35px;
     /*background-color: black;    */
-    height: 400px;
+    height: 350px;
 }
 /*FULL CARD*/
 .card-info{
@@ -125,9 +139,6 @@ li a{
     font-size: 15px;
     text-align: justify;
 }
-.link-ref a{
-    color: white;
-}
 /*CARD IMAGE*/
 .card-img{
     display: flex;
@@ -142,7 +153,7 @@ li a{
 }
 
 .card-img img:hover, video:hover{
-    opacity: .8;
+    opacity: .7;
     border: 3px solid rgb(109, 137, 228);
     transform: translateY(-3%);    
 }
